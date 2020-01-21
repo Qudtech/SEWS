@@ -18,16 +18,16 @@
     <title>Dashesh Board</title>
 
 </head>
-<body>
-    
+<body style="background-color: #F1F1F1;">
+<!--     
     <nav  class="navbar navbar-expand-md navbar-light bg-white border-bottom d-flex">
         <a class="navbar-brand"><img src="images/logo.png" width="30"><span class="ml-2 pt-3" >SMS</span></a>
         <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <!-- <div class="float-left">
+        <div class="float-left">
             <input type="text"  id="myInput" class="form-control shadow-sm" placeholder="Search...">
-        </div> -->
+        </div>
         <div id="my-nav" class="collapse navbar-collapse align-items-end bg-white text">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -39,11 +39,11 @@
             </ul>
         </div>
         
-        <!-- <div class="float-right mr-2  bg-white  p-1 " style="border-color: black;"> -->
-            <!-- <img   class="border border-secondary rounded-circle shadow-sm" src="images/img_avatar1.png" alt="" srcset="" width="35"> -->
-            <!-- <a style="width: 100px; height: 100px;" class="round-circle border-info border">Link</a> -->
-        <!-- </div> -->
-    </nav>
+        <div class="float-right mr-2  bg-white  p-1 " style="border-color: black;">
+            <img   class="border border-secondary rounded-circle shadow-sm" src="images/img_avatar1.png" alt="" srcset="" width="35">
+            <a style="width: 100px; height: 100px;" class="round-circle border-info border">Link</a>
+        </div>
+    </nav> -->
     <div class="d-flex" id="wrapper">
 
         <!-- Sidebar -->
@@ -104,15 +104,38 @@
             </div>
           </nav>
      -->
-          <div class="container-fluid sticky-top" style="background-color: #DAE1E3;" >
+          <div class="container-fluid sticky-top"  >
               <center style="margin: auto; margin-top: 50px;">
-                <div class="col-md-5">
-                  <div class="card border-0 shadow-sm mr-4 ml-4">
-                    <div class="card-header bg-white"></div>
-                    <div class="card-body"></div>
-                    <div class="card-footer"></div>
+                <img src="images/logo.png" width="90" class="mb-3" alt="" srcset="">
+                <div class="col-md-4">
+                  <div class="card border-success rounded-0 pb-3 shadow-sm mr-4 ml-4">
+                    <!-- <div class="card-header bg-white mb-2"></div> -->
+                    <div class="card-body">
+                      <div class="form-group">
+                        <label for="fName" class="float-left">Username or Email Address</label>
+                        <input id="fName" class="form-control" type="text" name="">
+                      </div>
+                      <div class="form-group">
+                        <label for="fName" class="float-left">Password</label>
+                        <input id="password-field" type="password" class="form-control" name="password" value="secret">
+              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                      </div>
+                      <div class="form-check float-left">
+                        <input id="my-input" class="form-check-input" type="checkbox" name="" value="true">
+                        <label for="my-input" class="form-check-label">Rememver Me</label>
+                      </div>
+                      <div>
+                        <button class="btn btn-success float-right">Login</button>
+                      </div>
+                    </div>
+                    <!-- <div class="card-footer"></div> -->
                   </div>
+                  <div class="ml-4 mt-2 text-secondary" style="font-size: 0.8em;">
+                    <a class="float-left" href="http://">Lost your password?</a>
+                  </div>
+                  
                 </div>
+                
               </center>
               <!-- <div class="d-flex justify-content-between mr-4 ml-4 mt-3">
                   <h4 class=""></h4>
@@ -129,7 +152,7 @@
             
                 <!-- #table -->
                
-            </div>
+            </olas>
           </div>
         </div>
         <!-- /#page-content-wrapper -->
