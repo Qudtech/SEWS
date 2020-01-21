@@ -11,7 +11,15 @@
   box-shadow: 2px 2px 4px #999;
   border-radius: 9px;
 }
-
+.field-icon {
+    float: right;
+    margin-left: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+  }
 #trEdit, #trDelete{
     position: relative;
     float:right;
